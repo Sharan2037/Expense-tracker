@@ -1,0 +1,72 @@
+.expense-item{
+    /* background-color: #777; */
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.expense-item:hover{
+    border: 1px solid white;
+}
+.expense-amount{
+    margin-left: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: purple;
+    color:white;
+    padding:0.5rem;
+    font-size: 1.2rem;
+    margin-right:10px;
+}
+.expense-name{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.expense-button{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    padding:5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    width: fit-content;
+}
+
+.expense-delete{
+    font-size:20px;
+    background-color: rgba(228, 11, 11, 0.7);  
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    border-radius: 12px;
+    border: 1px solid white;
+    margin: 5px;
+    cursor: pointer;
+}
+.expense-delete:hover{
+    background-color: rgba(228, 11, 11, 1);  
+    backdrop-filter: blur(5px);
+}
+.expense-edit{
+    font-size:20px;
+    background-color: rgba(90, 25, 25, 0.7);  
+    backdrop-filter: blur(5px);
+    padding: 5px 17px;
+    border-radius: 12px;
+    border: 1px solid white;
+    width: max-content;
+    cursor: pointer;
+}
+.expense-edit:hover{
+    background-color: rgba(23, 20, 20, 0.9);  
+    backdrop-filter: blur(5px);
+}

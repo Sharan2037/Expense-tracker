@@ -1,0 +1,31 @@
+.expenses-list{
+    padding:10px;
+}
+.empty-list{
+    color:aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding:10px;
+}
+
+.expense-filter{
+    background-color: #1f1f1f;
+    padding:5px;
+  }
+
+  .expense-filter h1{
+    margin-left: 30px;
+  }
+
+  .expense-filter-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  
+  .expense-dropdown{
+    width:15%;
+    border-radius: 20px;
+    color:black;
+  }
